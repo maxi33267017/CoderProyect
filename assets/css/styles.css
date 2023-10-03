@@ -123,18 +123,7 @@ footer {
   color: #007bff; /* Cambia el color al pasar el cursor sobre los íconos */
 }
 
-.aboutUsTitle {
-  margin-top: 30px;
-  margin-bottom: 30px;
-  text-align: center;
-}
-.aboutUsBox {
-  height: 80vh;
-  width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-}
+
 
 .contactPage {
   margin-top: 5rem;
@@ -200,4 +189,20 @@ button {
 
 button[type="reset"] {
   background-color: black;
+}
+
+.aboutPage {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.aboutUsTitle {
+  margin-top: 30px;
+  margin-bottom: 4rem;
+  text-align: center;
+  font-weight: 800;
+}
+
+.aboutUsBox {
+  margin-left: 10rem;
 }
