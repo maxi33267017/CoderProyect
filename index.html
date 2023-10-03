@@ -6,6 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- Favicon -->
   <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <!-- FontAwsome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <!-- GoogleFonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -23,12 +25,12 @@
 <body>
   <header>
     <!-- Nav Bar -->
-    <nav class="navbar navbar-expand-lg bg-white">
+    <nav class="navbar navbar-expand-lg">
       <div class="container-fluid">
         <a class="navbar-brand logo" href="./index.html">
           <img src="./assets/images/Logo.png" alt="Logo" width="30" height="30" class="d-inline-block align-text-top">
           PATAGONIK HEAVY MACHINES
-        </a> 
+        </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -63,76 +65,109 @@
       </div>
     </section>
 
-    <h2 class="productsTitle">Our Products</h2>
-    <div class="conteinerProducts">
-      <div class="card" style="width: 18rem; height: 18rem;">
-        <img class="card-img-top" src="./assets/images/210G.png" alt="JD Excavator">
-        <p class="cardDescription">Excavator</p>
-      </div>
-      <div class="card" style="width: 18rem; height: 18rem;">
-        <img class="card-img-top" src="./assets/images/644k.png" alt="JD Loader">
-        <p class="cardDescription">Loader</p>
-      </div>
-      <div class="card" style="width: 18rem; height: 18rem;">
-        <img class="card-img-top" src="./assets/images/320P.png" alt="JD Backhoe">
-        <p class="cardDescription">Backhoe</p>
-      </div>
-      <div class="card" style="width: 18rem; height: 18rem;">
-        <img class="card-img-top" src="./assets/images/770g.png" alt="JD Grader">
-        <p class="cardDescription">Grader</p>
+    <!-- <h2 class="productsTitle">Our Products</h2> -->
+    <div class="container">
+      <div class="conteinerProducts row">
+        <div class="col-sm-12 col-md-6 col-lg-3">
+          <div class="card " style="width: 18rem; height: 18rem;">
+            <img class="card-img-top" src="./assets/images/210G.png" alt="JD Excavator">
+            <p class="cardDescription">Excavator</p>
+          </div>
+        </div>
+
+        <div class="col-sm-12 col-md-6 col-lg-3">
+          <div class="card" style="width: 18rem; height: 18rem;">
+            <img class="card-img-top" src="./assets/images/644k.png" alt="JD Loader">
+            <p class="cardDescription">Loader</p>
+          </div>
+        </div>
+
+        <div class="col-sm-12 col-md-6 col-lg-3">
+          <div class="card" style="width: 18rem; height: 18rem;">
+            <img class="card-img-top" src="./assets/images/320P.png" alt="JD Backhoe">
+            <p class="cardDescription">Backhoe</p>
+          </div>
+        </div>
+
+        <div class="col-sm-12 col-md-6 col-lg-3">
+          <div class="card " style="width: 18rem; height: 18rem;">
+            <img class="card-img-top" src="./assets/images/770g.png" alt="JD Grader">
+            <p class="cardDescription">Grader</p>
+          </div>
+        </div>
       </div>
     </div>
 
+
     <h2 class="productsTitle">How we work</h2>
-    <div class="conteinerHowWeWork">
-      <div class="card" style="width: 18rem;">
-        <div class="card-body">
-          <h5 class="card-title">Advice</h5>
-          <p class="card-text">
-            We offer business advice 24 hours a day, 7 days a week. 
-            We provide comprehensive service from the sale of the equipment, after-sales support in spare parts and services. 
-            We respect the highest quality standards, quickly and efficiently. 
-            We deliver comprehensive solutions tailored to each client. 
-            We generate trust by creating links beyond the commercial, assisting to the best of our ability so that your work can be carried out efficiently.</p>
+    <div class="container">
+      <div class="conteinerHowWeWork row">
+        <div class="col-sm-12 col-md-12 col-lg-4 ">
+          <div class="card" style="width: 18rem;">
+            <div class="card-body">
+              <h5 class="card-title">Advice</h5>
+              <p class="card-text">
+                We offer business advice 24 hours a day, 7 days a week.
+                We provide comprehensive service from the sale of the equipment, after-sales support in spare parts and
+                services.
+                We respect the highest quality standards, quickly and efficiently.
+                We deliver comprehensive solutions tailored to each client.
+                We generate trust by creating links beyond the commercial, assisting to the best of our ability so that
+                your work can be carried out efficiently.</p>
+            </div>
+          </div>
         </div>
-      </div>
-      <div class="card" style="width: 18rem;">
-        <div class="card-body">
-          <h5 class="card-title">After Sale</h5>
-          <p class="card-text">
-            Our technicians are trained to keep your units effective, 
-            increasing their safety and performance; prolonging its useful life and maximizing its productivity. 
-            We offer personalized after-sales technical service, attention in our workshops from Monday to Saturday, field assistance and 24-hour on-call service.</p>
+
+        <div class="col-sm-12 col-md-12 col-lg-4 ">
+          <div class="card" style="width: 18rem;">
+            <div class="card-body">
+              <h5 class="card-title">After Sale</h5>
+              <p class="card-text">
+                Our technicians are trained to keep your units effective,
+                increasing their safety and performance; prolonging its useful life and maximizing its productivity.
+                We offer personalized after-sales technical service, attention in our workshops from Monday to Saturday,
+                field assistance and 24-hour on-call service.</p>
+            </div>
+          </div>
         </div>
-      </div>
-      <div class="card" style="width: 18rem;">
-        <div class="card-body">
-          <h5 class="card-title">Training</h5>
-          <p class="card-text">
-            We offer training services for our clients and their operators. 
-            Analyzing the functionalities of each machine point by point to obtain the maximum performance of the units.</p>
+
+        <div class="col-sm-12 col-md-12 col-lg-4 ">
+          <div class="card" style="width: 18rem;">
+            <div class="card-body">
+              <h5 class="card-title">Training</h5>
+              <p class="card-text">
+                We offer training services for our clients and their operators.
+                Analyzing the functionalities of each machine point by point to obtain the maximum performance of the
+                units.</p>
+            </div>
+          </div>
         </div>
+
       </div>
     </div>
+
   </main>
 
   <footer>
+
     <div class="footerBox">
       <p class="footerTitle">
-        We are Patagonik HM and you can find us at:</p>
+        Contact Us:</p>
       <ul>
         <li>
-          <p class="footerListParragraph">Hastings, NE 68901, EE. UU.</p>
+          <p class="footerListParragraph">Phone Number: 1163067433.</p>
         </li>
         <li>
-          <p class="footerListParragraph">35972 W 13 Mile Rd, Farmington Hills, MI 48331, EE. UU.</p>
-        </li>
-        <li>
-          <p class="footerListParragraph">N96W13600 County Line Rd, Germantown, WI 53022, EE. UU.</p>
+          <p class="footerListParragraph">Email: info@patagonik.com.</p>
         </li>
       </ul>
-      
+      <div class="social-icons">
+        <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+        <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+        <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+      </div>
     </div>
+
   </footer>
 </body>
 

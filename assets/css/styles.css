@@ -10,6 +10,16 @@
 /* Seteo de fuente a todo el body */
 body {
   font-family: 'Ubuntu', sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Establece el alto mínimo de la página al 100% del viewport height (vh) */
+  margin: 0;
+  padding: 0;
+  
+}
+
+main {
+  flex-grow: 1;
 }
 
 .bannerMainImage {
@@ -29,14 +39,14 @@ body {
 }
 
 .productsTitle {
-  margin-top: 15px;
+  margin-top: 1rem;
   text-align: center;
+  font-size: 4rem;
 }
 
 .conteinerProducts {
-  margin: 15px auto;
-  display: flex;
-  flex-wrap: wrap;
+  margin: 1rem auto;
+
 }
 
 .card {
@@ -44,6 +54,24 @@ body {
   float: none; 
   margin-bottom: 10px; 
   align-items: center;
+  height: 25rem;
+}
+
+.card-body {
+  padding-right: 0px;
+  padding-left: 0px;
+  padding-top: 0px;
+}
+
+.card-title{
+  background-color: #FFDE00;
+  text-align: center;
+  height: 2rem;
+  font-weight: 800;
+}
+
+.card-text {
+  padding: 12px;
 }
 
 .cardDescription {
@@ -57,15 +85,44 @@ body {
   flex-wrap: wrap;
 }
 
-.footerBox {
-  background-color: #FFDE00;
-  color: black;
+footer {
+  background: rgb(2,0,36);
+  background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(2,0,36,1) 53%, rgba(255,222,0,1) 88%, rgba(255,255,255,1) 100%);
+  color: #FFDE00;
+  bottom: 0;
+  width: 100%;
+  height: 60%;
 }
 
 .footerTitle {
-  padding-top: 30px;
-  text-decoration: underline;
+  padding-top: 3rem;
+  font-weight: 800;
 }
+
+.footerBox {
+  margin-top: 12rem;
+  margin-left: 3rem;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.social-icons {
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.social-icon {
+  display: inline-block;
+  margin: 0 10px;
+  font-size: 24px;
+  color: #FFDE00; /* Color de los íconos */
+}
+
+.social-icon:hover {
+  color: #007bff; /* Cambia el color al pasar el cursor sobre los íconos */
+}
+
 .aboutUsTitle {
   margin-top: 30px;
   margin-bottom: 30px;
