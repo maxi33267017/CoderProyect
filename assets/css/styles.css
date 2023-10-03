@@ -1,0 +1,121 @@
+
+/* Reseteo de todo */
+* {
+	margin: 0;
+	padding: 0;
+  box-sizing: border-box;
+}
+
+
+/* Seteo de fuente a todo el body */
+body {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.bannerMainImage {
+  width: 100%;
+  height: 60vh;
+}
+
+.conteinerMainImage {
+  width: 100%;
+  height: 100%;
+}
+
+.mainImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.productsTitle {
+  margin-top: 15px;
+  text-align: center;
+}
+
+.conteinerProducts {
+  margin: 15px auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  margin: 0 auto; 
+  float: none; 
+  margin-bottom: 10px; 
+  align-items: center;
+}
+
+.cardDescription {
+  position: absolute;
+  bottom: 0;
+}
+
+.conteinerHowWeWork {
+  margin: 50px auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footerBox {
+  background-color: #FFDE00;
+  color: black;
+}
+
+.footerTitle {
+  padding-top: 30px;
+  text-decoration: underline;
+}
+.aboutUsTitle {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+.aboutUsBox {
+  height: 80vh;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+
+.contactBox {
+  margin: 30px auto;
+  width: 300px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+label {
+  font-weight: bold;
+}
+
+input[type="text"], textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+textarea {
+  height: 150px;
+  max-height: 300px;
+  resize: vertical;
+}
+
+button {
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+button[type="reset"] {
+  background-color: black;
+}
