@@ -1,0 +1,214 @@
+/* Reseteo de todo */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* Seteo de fuente a todo el body */
+  body {
+    font-family: "Ubuntu", sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Establece el alto mínimo de la página al 100% del viewport height (vh) */
+    margin: 0;
+    padding: 0;
+    main {
+      flex-grow: 1;
+      .bannerMainImage {
+        width: 100%;
+        height: 60vh;
+        .conteinerMainImage {
+          width: 100%;
+          height: 100%;
+          .mainImage {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+          }
+        }
+      }
+      .conteinerProducts {
+        margin: 1rem auto;
+        .card {
+          margin: 0 auto;
+          float: none;
+          margin-bottom: 10px;
+          align-items: center;
+          height: 25rem;
+          .cardDescription {
+            position: absolute;
+            bottom: 0;
+          }
+        }
+      }
+      .productsTitle {
+        margin-top: 1rem;
+        text-align: center;
+        font-size: 4rem;
+        .conteinerHowWeWork {
+          margin: 50px auto;
+          display: flex;
+          flex-wrap: wrap;
+          .card {
+            margin: 0 auto;
+            float: none;
+            margin-bottom: 10px;
+            align-items: center;
+            height: 25rem;
+            .card-body {
+              padding-right: 0px;
+              padding-left: 0px;
+              padding-top: 0px;
+              .card-title {
+                background-color: #ffde00;
+                text-align: center;
+                height: 2rem;
+                font-weight: 800;
+                .card-text {
+                  padding: 12px;
+                }
+              }
+            }
+          }
+        }
+      }
+      .contactPage {
+        margin-top: 5rem;
+        margin-bottom: 3rem;
+        display: flex;
+        justify-content: center;
+        .contactBox {
+          margin: 30px auto;
+          width: 400px;
+          margin: 0 auto;
+          border: 1px solid #ccc;
+          border-radius: 5px;
+          .formTitle {
+            background-color: #ffde00;
+            text-align: center;
+          }
+          .contactForm {
+            margin-left: 1rem;
+            margin-right: 1rem;
+            .contactFormButtons {
+              display: flex;
+              justify-content: space-around;
+              padding-bottom: 1rem;
+              .contactFormButton {
+                border-radius: 10px;
+                color: #ffde00;
+              }
+            }
+          }
+        }
+      }
+      .aboutUsTitle {
+        margin-top: 30px;
+        margin-bottom: 4rem;
+        text-align: center;
+        font-weight: 800;
+      }
+      .aboutPage {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        .aboutUsBox {
+          margin-left: 10rem;
+          .card-body {
+            padding-right: 0px;
+            padding-left: 0px;
+            padding-top: 0px;
+            .card-text {
+              padding: 12px;
+            }
+          }
+        }
+      }
+      .album {
+        .card {
+          margin: 0 auto;
+          float: none;
+          margin-bottom: 10px;
+          align-items: center;
+          height: 25rem;
+          .card-body {
+            padding-right: 0px;
+            padding-left: 0px;
+            padding-top: 0px;
+            .card-text {
+              padding: 12px;
+            }
+          }
+        }
+      }
+    }
+    footer {
+      background: rgb(2, 0, 36);
+      background: linear-gradient(
+        0deg,
+        rgba(2, 0, 36, 1) 0%,
+        rgba(2, 0, 36, 1) 53%,
+        rgba(255, 222, 0, 1) 88%,
+        rgba(255, 255, 255, 1) 100%
+      );
+      color: #ffde00;
+      bottom: 0;
+      width: 100%;
+      height: 60%;
+      .footerBox {
+        margin-top: 12rem;
+        margin-left: 3rem;
+        display: flex;
+        flex-direction: column;
+        .footerTitle {
+          padding-top: 3rem;
+          font-weight: 800;
+        }
+        .social-icons {
+          margin-bottom: 1rem;
+          text-align: center;
+          .social-icon {
+            display: inline-block;
+            margin: 0 10px;
+            font-size: 24px;
+            color: #ffde00; /* Color de los íconos */
+          }
+          .social-icon:hover {
+            color: #007bff; /* Cambia el color al pasar el cursor sobre los íconos */
+          }
+        }
+      }
+    }
+  }
+}
+
+label {
+  font-weight: bold;
+}
+
+input[type="text"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+textarea {
+  height: 150px;
+  max-height: 300px;
+  resize: vertical;
+}
+
+button {
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+button[type="reset"] {
+  background-color: black;
+}
