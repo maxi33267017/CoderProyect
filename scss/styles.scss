@@ -1,4 +1,5 @@
 @import "variables.scss";
+@import "mixin.scss";
 @import "reset.scss";
 @import "index.scss";
 @import "contact.scss";
@@ -6,6 +7,7 @@
 @import "services.scss";
 @import "news.scss";
 @import "footer.scss";
+
 
 main {
   flex-grow: 1;
