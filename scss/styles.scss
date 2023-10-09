@@ -1,6 +1,7 @@
 @import "variables.scss";
 @import "mixin.scss";
 @import "reset.scss";
+@import "main.scss";
 @import "index.scss";
 @import "contact.scss";
 @import "about.scss";
@@ -9,38 +10,6 @@
 @import "footer.scss";
 
 
-main {
-  flex-grow: 1;
-}
 
-label {
-  font-weight: $font-weigth-bold;
-}
 
-input[type="text"], textarea {
-  width: 100%;
-  padding: 10px;
-  margin-bottom: 10px;
-  border: 1px solid map-get($colors, borders);
-  border-radius: 3px;
-}
-
-textarea {
-  height: 150px;
-  max-height: 300px;
-  resize: vertical;
-}
-
-button {
-  background-color: map-get($colors, jd-black);
-  color: white;
-  border: none;
-  padding: 10px 20px;
-  border-radius: 3px;
-  cursor: pointer;
-}
-
-button[type="reset"] {
-  background-color: map-get($colors, jd-black);
-}
 
