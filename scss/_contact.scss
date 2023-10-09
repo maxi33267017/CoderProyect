@@ -1,0 +1,36 @@
+.contactPage {
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+    display: flex;
+    justify-content: center;
+    .contactBox {
+        margin: 30px auto;
+        width: 400px;
+        margin: 0 auto;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        .formTitle {
+            background-color: #FFDE00;
+            text-align: center;
+          }
+        .contactForm {
+            margin-left: 1rem;
+            margin-right: 1rem;
+            .contactFormButtons {
+                display: flex;
+                justify-content: space-around;
+                padding-bottom: 1rem;
+                .contactFormButton {
+                    border-radius: 10px;
+                    color: #FFDE00;
+                  }
+              }
+          }
+      }
+  }
+  
+
+  
+  
+
+  

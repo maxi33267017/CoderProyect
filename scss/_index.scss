@@ -1,0 +1,63 @@
+
+.bannerMainImage {
+    width: 100%;
+    height: 60vh;
+    .conteinerMainImage {
+      width: 100%;
+      height: 100%;
+      .mainImage {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+  }
+
+  .conteinerProducts {
+    margin: 1rem auto;
+    .card {
+      margin: 0 auto; 
+      float: none; 
+      margin-bottom: 10px; 
+      align-items: center;
+      height: 25rem;
+      .cardDescription {
+        position: absolute;
+        bottom: 0;
+      }
+    }
+  }
+
+.productsTitle {
+    margin-top: 1rem;
+    text-align: center;
+    font-size: 4rem;
+  }
+
+.conteinerHowWeWork {
+    margin: 50px auto;
+    display: flex;
+    flex-wrap: wrap;
+    .card {
+      margin: 0 auto; 
+      float: none; 
+      margin-bottom: 10px; 
+      align-items: center;
+      height: 25rem;
+      .card-body {
+          padding-right: 0px;
+          padding-left: 0px;
+          padding-top: 0px;
+          .card-title{
+              background-color: #FFDE00;
+              text-align: center;
+              height: 2rem;
+              font-weight: 800;
+            }
+            .card-text {
+              padding: 12px;
+            }
+        }
+    }
+
+  }

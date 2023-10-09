@@ -1,5 +1,4 @@
 @charset "UTF-8";
-/* Reseteo de todo */
 * {
   margin: 0;
   padding: 0;
@@ -16,24 +15,33 @@ body {
   padding: 0;
 }
 
-main {
-  flex-grow: 1;
-}
-
 .bannerMainImage {
   width: 100%;
   height: 60vh;
 }
-
-.conteinerMainImage {
+.bannerMainImage .conteinerMainImage {
   width: 100%;
   height: 100%;
 }
-
-.mainImage {
+.bannerMainImage .conteinerMainImage .mainImage {
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+
+.conteinerProducts {
+  margin: 1rem auto;
+}
+.conteinerProducts .card {
+  margin: 0 auto;
+  float: none;
+  margin-bottom: 10px;
+  align-items: center;
+  height: 25rem;
+}
+.conteinerProducts .card .cardDescription {
+  position: absolute;
+  bottom: 0;
 }
 
 .productsTitle {
@@ -42,8 +50,124 @@ main {
   font-size: 4rem;
 }
 
-.conteinerProducts {
-  margin: 1rem auto;
+.conteinerHowWeWork {
+  margin: 50px auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+.conteinerHowWeWork .card {
+  margin: 0 auto;
+  float: none;
+  margin-bottom: 10px;
+  align-items: center;
+  height: 25rem;
+}
+.conteinerHowWeWork .card .card-body {
+  padding-right: 0px;
+  padding-left: 0px;
+  padding-top: 0px;
+}
+.conteinerHowWeWork .card .card-body .card-title {
+  background-color: #FFDE00;
+  text-align: center;
+  height: 2rem;
+  font-weight: 800;
+}
+.conteinerHowWeWork .card .card-body .card-text {
+  padding: 12px;
+}
+
+.contactPage {
+  margin-top: 5rem;
+  margin-bottom: 3rem;
+  display: flex;
+  justify-content: center;
+}
+.contactPage .contactBox {
+  margin: 30px auto;
+  width: 400px;
+  margin: 0 auto;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.contactPage .contactBox .formTitle {
+  background-color: #FFDE00;
+  text-align: center;
+}
+.contactPage .contactBox .contactForm {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+.contactPage .contactBox .contactForm .contactFormButtons {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 1rem;
+}
+.contactPage .contactBox .contactForm .contactFormButtons .contactFormButton {
+  border-radius: 10px;
+  color: #FFDE00;
+}
+
+.aboutUsTitle {
+  margin-top: 30px;
+  margin-bottom: 4rem;
+  text-align: center;
+  font-weight: 800;
+}
+
+.aboutPage {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.aboutPage .aboutUsBox {
+  margin-left: 10rem;
+}
+.aboutPage .aboutUsBox .card {
+  margin: 0 auto;
+  float: none;
+  margin-bottom: 10px;
+  align-items: center;
+  height: 25rem;
+}
+.aboutPage .aboutUsBox .card .card-body {
+  padding-right: 0px;
+  padding-left: 0px;
+  padding-top: 0px;
+}
+.aboutPage .aboutUsBox .card .card-body .card-text {
+  padding: 12px;
+}
+
+.aboutUsTitle {
+  margin-top: 30px;
+  margin-bottom: 4rem;
+  text-align: center;
+  font-weight: 800;
+}
+
+.aboutPage {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.aboutPage .aboutUsBox {
+  margin-left: 10rem;
+}
+.aboutPage .aboutUsBox .card {
+  margin: 0 auto;
+  float: none;
+  margin-bottom: 10px;
+  align-items: center;
+  height: 25rem;
+}
+.aboutPage .aboutUsBox .card .card-body {
+  padding-right: 0px;
+  padding-left: 0px;
+  padding-top: 0px;
+}
+.aboutPage .aboutUsBox .card .card-body .card-text {
+  padding: 12px;
 }
 
 .card {
@@ -53,33 +177,13 @@ main {
   align-items: center;
   height: 25rem;
 }
-
-.card-body {
+.card .card-body {
   padding-right: 0px;
   padding-left: 0px;
   padding-top: 0px;
 }
-
-.card-title {
-  background-color: #FFDE00;
-  text-align: center;
-  height: 2rem;
-  font-weight: 800;
-}
-
-.card-text {
+.card .card-body .card-text {
   padding: 12px;
-}
-
-.cardDescription {
-  position: absolute;
-  bottom: 0;
-}
-
-.conteinerHowWeWork {
-  margin: 50px auto;
-  display: flex;
-  flex-wrap: wrap;
 }
 
 footer {
@@ -90,69 +194,32 @@ footer {
   width: 100%;
   height: 60%;
 }
-
-.footerTitle {
-  padding-top: 3rem;
-  font-weight: 800;
-}
-
-.footerBox {
+footer .footerBox {
   margin-top: 12rem;
   margin-left: 3rem;
   display: flex;
   flex-direction: column;
 }
-
-.social-icons {
+footer .footerBox .footerTitle {
+  padding-top: 3rem;
+  font-weight: 800;
+}
+footer .footerBox .social-icons {
   margin-bottom: 1rem;
   text-align: center;
 }
-
-.social-icon {
+footer .footerBox .social-icons .social-icon {
   display: inline-block;
   margin: 0 10px;
   font-size: 24px;
   color: #FFDE00; /* Color de los íconos */
 }
-
-.social-icon:hover {
+footer .footerBox .social-icons .social-icon:hover {
   color: #007bff; /* Cambia el color al pasar el cursor sobre los íconos */
 }
 
-.contactPage {
-  margin-top: 5rem;
-  margin-bottom: 3rem;
-  display: flex;
-  justify-content: center;
-}
-
-.formTitle {
-  background-color: #FFDE00;
-  text-align: center;
-}
-
-.contactBox {
-  margin: 30px auto;
-  width: 400px;
-  margin: 0 auto;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-}
-
-.contactForm {
-  margin-left: 1rem;
-  margin-right: 1rem;
-}
-
-.contactFormButtons {
-  display: flex;
-  justify-content: space-around;
-  padding-bottom: 1rem;
-}
-
-.contactFormButton {
-  border-radius: 10px;
-  color: #FFDE00;
+main {
+  flex-grow: 1;
 }
 
 label {
@@ -184,21 +251,4 @@ button {
 
 button[type=reset] {
   background-color: black;
-}
-
-.aboutPage {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-}
-
-.aboutUsTitle {
-  margin-top: 30px;
-  margin-bottom: 4rem;
-  text-align: center;
-  font-weight: 800;
-}
-
-.aboutUsBox {
-  margin-left: 10rem;
 }/*# sourceMappingURL=styles.css.map */
