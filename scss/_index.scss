@@ -19,7 +19,7 @@
       margin: 0 auto; 
       float: none; 
       margin-bottom: 10px; 
-      align-items: center;
+      align-items: $aling-items-center;
       height: 25rem;
       .cardDescription {
         position: absolute;
@@ -49,7 +49,7 @@
           padding-left: 0px;
           padding-top: 0px;
           .card-title{
-              background-color: #FFDE00;
+              background-color: map-get($colors, jd-yellow);
               text-align: center;
               height: 2rem;
               font-weight: 800;

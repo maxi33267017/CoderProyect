@@ -7,10 +7,10 @@
         margin: 30px auto;
         width: 400px;
         margin: 0 auto;
-        border: 1px solid #ccc;
+        border: 1px solid map-get($colors, borders);
         border-radius: 5px;
         .formTitle {
-            background-color: #FFDE00;
+            background-color: map-get($colors, jd-yellow);;
             text-align: center;
           }
         .contactForm {
@@ -22,7 +22,7 @@
                 padding-bottom: 1rem;
                 .contactFormButton {
                     border-radius: 10px;
-                    color: #FFDE00;
+                    color: map-get($colors, jd-yellow);;
                   }
               }
           }

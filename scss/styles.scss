@@ -1,3 +1,4 @@
+@import "variables.scss";
 @import "reset.scss";
 @import "index.scss";
 @import "contact.scss";
@@ -11,14 +12,14 @@ main {
 }
 
 label {
-  font-weight: bold;
+  font-weight: $font-weigth-bold;
 }
 
 input[type="text"], textarea {
   width: 100%;
   padding: 10px;
   margin-bottom: 10px;
-  border: 1px solid #ccc;
+  border: 1px solid map-get($colors, borders);
   border-radius: 3px;
 }
 
@@ -29,7 +30,7 @@ textarea {
 }
 
 button {
-  background-color: black;
+  background-color: map-get($colors, jd-black);
   color: white;
   border: none;
   padding: 10px 20px;
@@ -38,6 +39,6 @@ button {
 }
 
 button[type="reset"] {
-  background-color: black;
+  background-color: map-get($colors, jd-black);
 }
 

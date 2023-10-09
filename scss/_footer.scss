@@ -2,7 +2,7 @@
 footer {
     background: rgb(2,0,36);
     background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(2,0,36,1) 53%, rgba(255,222,0,1) 88%, rgba(255,255,255,1) 100%);
-    color: #FFDE00;
+    color: map-get($colors, jd-yellow);
     bottom: 0;
     width: 100%;
     height: 60%;
@@ -22,11 +22,11 @@ footer {
                 display: inline-block;
                 margin: 0 10px;
                 font-size: 24px;
-                color: #FFDE00; /* Color de los íconos */
+                color: map-get($colors, jd-yellow); /* Color de los íconos */
               }
               
             .social-icon:hover {
-                color: #007bff; /* Cambia el color al pasar el cursor sobre los íconos */
+                color: #a49999; /* Cambia el color al pasar el cursor sobre los íconos */
               }
           }
       }

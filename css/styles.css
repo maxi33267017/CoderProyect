@@ -215,7 +215,7 @@ footer .footerBox .social-icons .social-icon {
   color: #FFDE00; /* Color de los íconos */
 }
 footer .footerBox .social-icons .social-icon:hover {
-  color: #007bff; /* Cambia el color al pasar el cursor sobre los íconos */
+  color: #a49999; /* Cambia el color al pasar el cursor sobre los íconos */
 }
 
 main {
