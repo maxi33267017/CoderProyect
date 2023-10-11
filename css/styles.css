@@ -177,6 +177,7 @@ button[type=reset] {
 }
 .aboutPage .aboutUsBox .card .card-body .card-text {
   padding: 12px;
+  text-align: start;
 }
 
 .aboutUsTitle {
