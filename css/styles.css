@@ -42,10 +42,14 @@ main {
   margin-bottom: 10px;
   align-items: center;
   height: 25rem;
+  transition: transform 0.5s ease;
 }
 .conteinerProducts .card .cardDescription {
   position: absolute;
   bottom: 0;
+}
+.conteinerProducts .card:hover {
+  transform: scale(1.2);
 }
 
 .productsTitle {

@@ -21,10 +21,15 @@
       margin-bottom: 10px; 
       align-items: $aling-items-center;
       height: 25rem;
+      transition: transform 0.5s ease;
       .cardDescription {
         position: absolute;
         bottom: 0;
       }
+
+    }
+    .card:hover {
+      transform: scale(1.2);
     }
   }
 
