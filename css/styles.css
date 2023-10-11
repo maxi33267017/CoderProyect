@@ -218,32 +218,48 @@ footer {
   background: rgb(2, 0, 36);
   background: linear-gradient(0deg, rgb(2, 0, 36) 0%, rgb(2, 0, 36) 53%, rgb(255, 222, 0) 88%, rgb(255, 255, 255) 100%);
   color: #FFDE00;
-  bottom: 0;
-  width: 100%;
-  height: 60%;
-}
-footer .footerBox {
-  margin-top: 12rem;
-  margin-left: 3rem;
+  padding: 2rem 0;
   display: flex;
-  flex-direction: column;
+  flex-direction: column; /* Cambiado a columna en pantallas más pequeñas */
+  align-items: center; /* Centra social-icons verticalmente */
+  text-align: center; /* Centra el texto en el medio en pantallas pequeñas */
 }
-footer .footerBox .footerTitle {
-  padding-top: 3rem;
-  font-weight: 800;
+
+.infoBox {
+  margin-top: 18rem;
+  display: flex;
+  flex-wrap: wrap; /* Permite que los elementos se envuelvan en pantallas más pequeñas */
+  width: 100%;
+  justify-content: space-between; /* Coloca contactBox y aboutBox en los extremos */
 }
-footer .footerBox .social-icons {
-  margin-bottom: 1rem;
-  text-align: center;
+
+.contactBox {
+  margin-top: 1rem;
+  margin-right: 2rem;
+  margin-left: 2rem;
+  text-align: left;
 }
-footer .footerBox .social-icons .social-icon {
+
+.aboutBox {
+  margin-left: 2rem;
+  text-align: left;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center; /* Centra los íconos horizontalmente */
+  margin-top: 5rem; /* Agrega espacio entre infoBox y social-icons en pantallas pequeñas */
+}
+
+.social-icon {
   display: inline-block;
   margin: 0 10px;
   font-size: 24px;
-  color: #FFDE00; /* Color de los íconos */
+  color: #ffde00;
   transition: transform 0.5s ease;
 }
-footer .footerBox .social-icons .social-icon:hover {
-  color: #a49999; /* Cambia el color al pasar el cursor sobre los íconos */
+
+.social-icon:hover {
+  color: #a49999;
   transform: scale(1.8);
 }/*# sourceMappingURL=styles.css.map */
