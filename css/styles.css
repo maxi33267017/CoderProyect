@@ -220,46 +220,47 @@ footer {
   color: #FFDE00;
   padding: 2rem 0;
   display: flex;
-  flex-direction: column; /* Cambiado a columna en pantallas más pequeñas */
-  align-items: center; /* Centra social-icons verticalmente */
-  text-align: center; /* Centra el texto en el medio en pantallas pequeñas */
+  flex-direction: column;
+  /* Cambiado a columna en pantallas más pequeñas */
+  align-items: center;
+  /* Centra social-icons verticalmente */
+  text-align: center;
+  /* Centra el texto en el medio en pantallas pequeñas */
 }
-
-.infoBox {
+footer .infoBox {
   margin-top: 18rem;
   display: flex;
-  flex-wrap: wrap; /* Permite que los elementos se envuelvan en pantallas más pequeñas */
+  flex-wrap: wrap;
+  /* Permite que los elementos se envuelvan en pantallas más pequeñas */
   width: 100%;
-  justify-content: space-between; /* Coloca contactBox y aboutBox en los extremos */
+  justify-content: space-between;
+  /* Coloca contactBox y aboutBox en los extremos */
 }
-
-.contactBox {
+footer .infoBox .aboutBox {
+  margin-left: 2rem;
+  text-align: left;
+}
+footer .infoBox .contactBox {
   margin-top: 1rem;
   margin-right: 2rem;
   margin-left: 2rem;
   text-align: left;
 }
-
-.aboutBox {
-  margin-left: 2rem;
-  text-align: left;
-}
-
-.social-icons {
+footer .social-icons {
   display: flex;
-  justify-content: center; /* Centra los íconos horizontalmente */
-  margin-top: 5rem; /* Agrega espacio entre infoBox y social-icons en pantallas pequeñas */
+  justify-content: center;
+  /* Centra los íconos horizontalmente */
+  margin-top: 5rem;
+  /* Agrega espacio entre infoBox y social-icons en pantallas pequeñas */
 }
-
-.social-icon {
+footer .social-icons .social-icon {
   display: inline-block;
   margin: 0 10px;
   font-size: 24px;
   color: #ffde00;
   transition: transform 0.5s ease;
 }
-
-.social-icon:hover {
+footer .social-icons .social-icon:hover {
   color: #a49999;
   transform: scale(1.8);
 }/*# sourceMappingURL=styles.css.map */
