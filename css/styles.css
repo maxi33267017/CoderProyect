@@ -253,7 +253,9 @@ footer .footerBox .social-icons .social-icon {
   margin: 0 10px;
   font-size: 24px;
   color: #FFDE00; /* Color de los íconos */
+  transition: transform 0.5s ease;
 }
 footer .footerBox .social-icons .social-icon:hover {
   color: #a49999; /* Cambia el color al pasar el cursor sobre los íconos */
+  transform: scale(1.8);
 }/*# sourceMappingURL=styles.css.map */

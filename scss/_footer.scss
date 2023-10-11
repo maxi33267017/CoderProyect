@@ -23,10 +23,12 @@ footer {
                 margin: 0 10px;
                 font-size: 24px;
                 color: map-get($colors, jd-yellow); /* Color de los íconos */
+                transition: transform 0.5s ease;
               }
               
             .social-icon:hover {
                 color: #a49999; /* Cambia el color al pasar el cursor sobre los íconos */
+                transform: scale(1.8);
               }
           }
       }
