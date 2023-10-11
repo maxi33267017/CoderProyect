@@ -168,7 +168,7 @@ button[type=reset] {
   float: none;
   margin-bottom: 10px;
   align-items: center;
-  height: 25rem;
+  height: fit-content;
 }
 .aboutPage .aboutUsBox .card .card-body {
   padding-right: 0px;
@@ -177,7 +177,7 @@ button[type=reset] {
 }
 .aboutPage .aboutUsBox .card .card-body .card-text {
   padding: 12px;
-  text-align: start;
+  text-align: center;
 }
 
 .aboutUsTitle {
@@ -200,7 +200,7 @@ button[type=reset] {
   float: none;
   margin-bottom: 10px;
   align-items: center;
-  height: 25rem;
+  height: fit-content;
 }
 .aboutPage .aboutUsBox .card .card-body {
   padding-right: 0px;
