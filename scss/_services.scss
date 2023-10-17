@@ -1,9 +1,11 @@
  
 .servicesTitle {
-    margin-top: 30px;
-    margin-bottom: 4rem;
-    text-align: center;
-    font-weight: 800;
+        margin-top: 1rem;
+        text-align: center;
+        font-size: 56px; /* Tamaño del texto */
+        font-weight: bold; /* Estilo del texto (negrita) */
+        text-shadow: 3px 3px 4px rgba(255, 226, 38, 0.941); 
+        margin-bottom: 3rem;    
 }
 
 .iframe-container {
