@@ -1,17 +1,22 @@
 
-.bannerMainImage {
-    width: 100%;
-    height: 60vh;
-    .conteinerMainImage {
-      width: 100%;
-      height: 100%;
-      .mainImage {
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-      }
-    }
+#banner {
+  width: 100%;
+  height: 50vh;
+  background-image: url('../assets/images/mainImage.png'); /* Ruta de tu imagen de fondo */
+  background-size: cover; /* Ajusta el tamaño de la imagen para cubrir todo el banner */
+  background-position: center; /* Centra la imagen de fondo */
+  text-align:initial; 
+  color: white;
+  h1 {
+    padding-top: 10px;
+    padding-left: 2px;
+    font-size: 46px; /* Tamaño del texto */
+    font-weight: bold; /* Estilo del texto (negrita) */
+    text-shadow: 3px 3px 4px rgba(0, 0, 0, 0.874); /* Sombra para mejorar la legibilidad del texto */
   }
+}
+
+
 
   .conteinerProducts {
     margin: 1rem auto;
@@ -36,7 +41,9 @@
 .productsTitle {
     margin-top: 1rem;
     text-align: center;
-    font-size: 4rem;
+    font-size: 56px; /* Tamaño del texto */
+    font-weight: bold; /* Estilo del texto (negrita) */
+    text-shadow: 3px 3px 4px rgba(255, 226, 38, 0.941);
   }
 
 .conteinerHowWeWork {
@@ -66,3 +73,4 @@
     }
 
   }
+
