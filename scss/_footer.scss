@@ -1,6 +1,12 @@
 footer {
   background: rgb(2, 0, 36);
-  background: linear-gradient(0deg, rgba(2, 0, 36, 1) 0%, rgba(2, 0, 36, 1) 53%, rgba(255, 222, 0, 1) 88%, rgba(255, 255, 255, 1) 100%);
+  background: linear-gradient(
+    0deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(2, 0, 36, 1) 53%,
+    rgba(255, 222, 0, 1) 88%,
+    rgba(255, 255, 255, 1) 100%
+  );
   color: map-get($colors, jd-yellow);
   padding: 2rem 0;
   display: flex;
@@ -26,7 +32,6 @@ footer {
     }
 
     .contactBox {
-      margin-top: 1rem;
       margin-right: 2rem;
       margin-left: 2rem;
       text-align: left;
@@ -54,13 +59,3 @@ footer {
     }
   }
 }
-
-
-
-
-
-
-
-
-
-
