@@ -1,11 +1,10 @@
-
 #banner {
   width: 100%;
   height: 50vh;
-  background-image: url('../assets/images/mainImage.avif'); /* Ruta de tu imagen de fondo */
+  background-image: url("../assets/images/mainImage.avif"); /* Ruta de tu imagen de fondo */
   background-size: cover; /* Ajusta el tamaño de la imagen para cubrir todo el banner */
   background-position: center; /* Centra la imagen de fondo */
-  text-align:initial; 
+  text-align: initial;
   color: white;
   h1 {
     padding-top: 10px;
@@ -16,60 +15,56 @@
   }
 }
 
-
-  .conteinerProducts {
-    margin: 1rem auto;
-    .card {
-      margin: 0 auto; 
-      float: none; 
-      margin-bottom: 10px; 
-      align-items: $aling-items-center;
-      height: 25rem;
-      transition: transform 0.5s ease;
-      .cardDescription {
-        position: absolute;
-        bottom: 0;
-      }
-
-    }
-    .card:hover {
-      transform: scale(1.2);
+.conteinerProducts {
+  margin: 1rem auto;
+  .card {
+    margin: 0 auto;
+    float: none;
+    margin-bottom: 10px;
+    align-items: $aling-items-center;
+    height: 25rem;
+    transition: transform 0.5s ease;
+    .cardDescription {
+      position: absolute;
+      bottom: 0;
     }
   }
+  .card:hover {
+    transform: scale(1.2);
+  }
+}
 
 .productsTitle {
-    margin-top: 1rem;
-    text-align: center;
-    font-size: 56px; /* Tamaño del texto */
-    font-weight: bold; /* Estilo del texto (negrita) */
-    text-shadow: 3px 3px 4px rgba(255, 226, 38, 0.941);
-  }
+  margin-top: 1rem;
+  text-align: center;
+  font-size: 56px; /* Tamaño del texto */
+  font-weight: bold; /* Estilo del texto (negrita) */
+  text-shadow: 3px 3px 4px rgba(255, 226, 38, 0.941);
+}
 
 .conteinerHowWeWork {
-    margin: 50px auto;
-    display: flex;
-    flex-wrap: wrap;
-    .card {
-      margin: 0 auto; 
-      float: none; 
-      margin-bottom: 10px; 
-      align-items: center;
-      height: 25rem;
-      .card-body {
-          padding-right: 0px;
-          padding-left: 0px;
-          padding-top: 0px;
-          .card-title{
-              background-color: map-get($colors, jd-yellow);
-              text-align: center;
-              height: 2rem;
-              font-weight: 800;
-            }
-            .card-text {
-              padding: 12px;
-            }
-        }
+  margin: 50px auto;
+  display: flex;
+  flex-wrap: wrap;
+  .card {
+    margin: 0 auto;
+    float: none;
+    margin-bottom: 10px;
+    align-items: center;
+    height: 25rem;
+    .card-body {
+      padding-right: 0px;
+      padding-left: 0px;
+      padding-top: 0px;
+      .card-title {
+        background-color: map-get($colors, jd-yellow);
+        text-align: center;
+        height: 2rem;
+        font-weight: 800;
+      }
+      .card-text {
+        padding: 12px;
+      }
     }
-
   }
-
+}

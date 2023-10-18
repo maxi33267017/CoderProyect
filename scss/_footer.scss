@@ -27,7 +27,7 @@ footer {
 
     /* Coloca contactBox y aboutBox en los extremos */
     .aboutBox {
-      margin-left: 2rem;
+      margin-left: 1rem;
       text-align: left;
     }
     .logoJd {
@@ -36,9 +36,11 @@ footer {
       margin-left: 4rem;
       margin-right: 2rem;
     }
+    .logoJd:hover {
+      transform: scale(1.4);
+    }
     .contactBox {
-      margin-right: 2rem;
-      margin-left: 2rem;
+      margin-right: 1rem;
       text-align: left;
     }
   }
@@ -62,5 +64,29 @@ footer {
       color: #a49999;
       transform: scale(1.8);
     }
+  }
+}
+
+/* Estilos específicos para pantallas de escritorio y notebook */
+@media (min-width: 768px) {
+  footer .infoBox {
+    margin-top: 18rem;
+  }
+}
+
+/* Estilos específicos para dispositivos móviles */
+@media (max-width: 767px) {
+  footer .infoBox {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 24rem;
+  }
+  footer .infoBox .aboutBox,
+  footer .infoBox .contactBox,
+  footer .infoBox .logoJd {
+    margin: 1rem 0;
+  }
+  footer .social-icons {
+    margin-top: 2rem;
   }
 }
