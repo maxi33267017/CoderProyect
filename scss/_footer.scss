@@ -16,16 +16,15 @@ footer {
   /* Centra social-icons verticalmente */
   text-align: center;
 
-  /* Centra el texto en el medio en pantallas pequeñas */
+
   .infoBox {
-    margin-top: 18rem;
+    margin-top: 8rem;
     display: flex;
     flex-wrap: wrap;
-    /* Permite que los elementos se envuelvan en pantallas más pequeñas */
     width: 100%;
     justify-content: space-between;
 
-    /* Coloca contactBox y aboutBox en los extremos */
+
     .aboutBox {
       margin-left: 1rem;
       text-align: left;
@@ -33,7 +32,7 @@ footer {
     .logoJd {
       display: flex;
       justify-content: center;
-      margin-left: 4rem;
+      margin-left: 2rem;
       margin-right: 2rem;
     }
     .logoJd:hover {
@@ -48,10 +47,9 @@ footer {
   .social-icons {
     display: flex;
     justify-content: center;
-    /* Centra los íconos horizontalmente */
     margin-top: 5rem;
 
-    /* Agrega espacio entre infoBox y social-icons en pantallas pequeñas */
+    
     .social-icon {
       display: inline-block;
       margin: 0 10px;
@@ -70,7 +68,7 @@ footer {
 /* Estilos específicos para pantallas de escritorio y notebook */
 @media (min-width: 768px) {
   footer .infoBox {
-    margin-top: 18rem;
+    margin-top: 8rem;
   }
 }
 
@@ -79,7 +77,7 @@ footer {
   footer .infoBox {
     flex-direction: column;
     align-items: center;
-    margin-top: 24rem;
+    margin-top: 15rem;
   }
   footer .infoBox .aboutBox,
   footer .infoBox .contactBox,

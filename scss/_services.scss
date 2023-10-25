@@ -24,4 +24,9 @@
 
 #serviceCard {
     height: fit-content;
+    .card-text{
+        margin-top: 2px;
+        margin-bottom: 6px;
+        padding: 0px 12px 0px 12px;
+    }
 }

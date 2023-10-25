@@ -95,7 +95,9 @@ main {
   font-weight: 800;
 }
 .conteinerHowWeWork .card .card-body .card-text {
-  padding: 12px;
+  margin-top: 2px;
+  margin-bottom: 6px;
+  padding: 0px 12px 0px 12px;
 }
 
 .contactPage {
@@ -189,6 +191,11 @@ button[type=reset] {
 #aboutCard {
   height: fit-content;
 }
+#aboutCard .card-text {
+  margin-top: 2px;
+  margin-bottom: 6px;
+  padding: 0px 12px 0px 12px;
+}
 
 .servicesTitle {
   margin-top: 1rem;
@@ -215,6 +222,11 @@ button[type=reset] {
 
 #serviceCard {
   height: fit-content;
+}
+#serviceCard .card-text {
+  margin-top: 2px;
+  margin-bottom: 6px;
+  padding: 0px 12px 0px 12px;
 }
 
 .jumbotron-heading {
@@ -258,16 +270,13 @@ footer {
   align-items: center;
   /* Centra social-icons verticalmente */
   text-align: center;
-  /* Centra el texto en el medio en pantallas pequeñas */
 }
 footer .infoBox {
-  margin-top: 18rem;
+  margin-top: 8rem;
   display: flex;
   flex-wrap: wrap;
-  /* Permite que los elementos se envuelvan en pantallas más pequeñas */
   width: 100%;
   justify-content: space-between;
-  /* Coloca contactBox y aboutBox en los extremos */
 }
 footer .infoBox .aboutBox {
   margin-left: 1rem;
@@ -276,7 +285,7 @@ footer .infoBox .aboutBox {
 footer .infoBox .logoJd {
   display: flex;
   justify-content: center;
-  margin-left: 4rem;
+  margin-left: 2rem;
   margin-right: 2rem;
 }
 footer .infoBox .logoJd:hover {
@@ -289,9 +298,7 @@ footer .infoBox .contactBox {
 footer .social-icons {
   display: flex;
   justify-content: center;
-  /* Centra los íconos horizontalmente */
   margin-top: 5rem;
-  /* Agrega espacio entre infoBox y social-icons en pantallas pequeñas */
 }
 footer .social-icons .social-icon {
   display: inline-block;
@@ -308,7 +315,7 @@ footer .social-icons .social-icon:hover {
 /* Estilos específicos para pantallas de escritorio y notebook */
 @media (min-width: 768px) {
   footer .infoBox {
-    margin-top: 18rem;
+    margin-top: 8rem;
   }
 }
 /* Estilos específicos para dispositivos móviles */
@@ -316,7 +323,7 @@ footer .social-icons .social-icon:hover {
   footer .infoBox {
     flex-direction: column;
     align-items: center;
-    margin-top: 24rem;
+    margin-top: 15rem;
   }
   footer .infoBox .aboutBox,
   footer .infoBox .contactBox,
